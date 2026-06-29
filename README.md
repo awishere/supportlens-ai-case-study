@@ -4,6 +4,22 @@ SupportLens AI is a support inbox copilot that helps teams review customer messa
 
 The source code is private. This repository documents the product, architecture, security decisions, and engineering work behind the project.
 
+## Proof Links
+
+- Portfolio walkthrough: [anasnaveed.com/case-studies/supportlens-ai.html](https://anasnaveed.com/case-studies/supportlens-ai.html)
+- Source status: private, documented here with screenshots and architecture notes
+- Best proof signal: practical AI workflow with Gmail OAuth, retrieval, PII redaction, source review, draft creation, and human approval
+
+## Screenshots
+
+| Inbox | Review queue |
+| --- | --- |
+| ![SupportLens inbox](assets/inbox.png) | ![SupportLens review queue](assets/queue.png) |
+
+| Reply workspace | Knowledge library |
+| --- | --- |
+| ![SupportLens reply workspace](assets/reply.png) | ![SupportLens knowledge library](assets/library.png) |
+
 ## Problem
 
 Support teams often jump between inboxes, help-center articles, refund rules, shipping policies, warranty docs, and previous replies. Generic chatbots are not enough for this workflow because support responses need evidence, privacy controls, and human approval.
@@ -23,6 +39,14 @@ SupportLens AI was built to show how an AI assistant can fit inside a real suppo
 - Encrypted OAuth token storage
 - PII redaction before AI drafting
 - Audit logs for integration and security changes
+
+## What A Reviewer Can Verify Here
+
+- The project is structured around a real support workflow, not a generic chatbot
+- The UI shows inbox review, queue management, reply drafting, and policy library flows
+- The backend story includes OAuth, retrieval, token encryption, audit logs, and protected admin routes
+- The AI output remains under human control before anything customer-facing happens
+- The project maps directly to AI workflow, backend API, integrations, and internal tools roles
 
 ## Workflow
 
@@ -94,4 +118,3 @@ Privacy controls are part of the main workflow instead of an afterthought. Sensi
 ## Results
 
 SupportLens AI demonstrates practical AI engineering beyond a chatbot. It shows retrieval, source review, privacy controls, OAuth integration, auditability, and human approval inside a useful business workflow.
-
