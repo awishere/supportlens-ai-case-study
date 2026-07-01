@@ -10,6 +10,17 @@ The source code is private. This repository documents the product, architecture,
 - Source status: private, documented here with screenshots and architecture notes
 - Best proof signal: practical AI workflow with Gmail OAuth, retrieval, PII redaction, source review, draft creation, and human approval
 
+## 60-Second Reviewer Check
+
+If you are reviewing this for an AI backend, integrations, or internal tools role, check these first:
+
+- The screenshots show the actual workflow: inbox, review queue, reply workspace, and knowledge library
+- The AI feature is grounded in a business process: retrieve policy context, redact sensitive text, draft a reply, show sources, and keep a human in control
+- The backend scope is visible: Gmail OAuth, message sync, encrypted token storage, protected admin routes, retrieval, audit logs, and draft creation
+- The project avoids the usual chatbot weakness: it does not pretend model output should go straight to the customer
+
+This is not open source. Treat it as a public case study with product screenshots and architecture evidence.
+
 ## Screenshots
 
 | Inbox | Review queue |
